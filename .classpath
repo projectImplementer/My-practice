@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="lib" path="C:/Selenium/animal-sniffer-annotations-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/checker-compat-qual-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/error_prone_annotations-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/j2objc-annotations-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jsr305-1.3.9.jar" sourcepath="C:/Selenium/jsr305-1.3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-api-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-chrome-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-edge-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-firefox-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-ie-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-opera-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-remote-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-safari-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-support-3.141.59.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.seleniumhq.selenium:selenium-java:3.141.59"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.seleniumhq.selenium:selenium-api:3.141.59"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.141.59"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.seleniumhq.selenium:selenium-edge-driver:3.141.59"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.seleniumhq.selenium:selenium-firefox-driver:3.141.59"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.seleniumhq.selenium:selenium-ie-driver:3.141.59"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.seleniumhq.selenium:selenium-opera-driver:3.141.59"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.seleniumhq.selenium:selenium-remote-driver:3.141.59"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.seleniumhq.selenium:selenium-safari-driver:3.141.59"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.seleniumhq.selenium:selenium-support:3.141.59"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: net.bytebuddy:byte-buddy:1.8.15"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apache.commons:commons-exec:1.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.google.guava:guava:25.0-jre"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.google.code.findbugs:jsr305:1.3.9"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.checkerframework:checker-compat-qual:2.0.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.google.errorprone:error_prone_annotations:2.1.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.google.j2objc:j2objc-annotations:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.squareup.okhttp3:okhttp:3.11.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.squareup.okio:okio:1.14.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.testng:testng:6.10"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.beust:jcommander:1.48"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

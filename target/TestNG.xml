@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+
+<suite name="SoftVisionProject" parallel="none" >
+
+<test name = "Test_Firefox">
+    <parameter name="browserName" value="chrome" />
+
+        <classes>
+            <class name="softvisionProject.testcases.ContactPageTestCases.openSoftVisionContactPage"/>
+        </classes>
+</test>
+
+<test name = "Test_Chrome">
+    <parameter name="browserName" value="chrome" />
+
+        <classes>
+            <class name="softvisionProject.testcases.ContactPageTestCases.openAustinStudio"/>
+        </classes>
+</test>
+
+
+
+</suite>
