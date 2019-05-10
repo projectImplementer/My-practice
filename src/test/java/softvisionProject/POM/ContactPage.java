@@ -11,6 +11,7 @@ import softvisionProject.framework.JavaMap;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
+import static softvisionProject.framework.JavaMap.getDropList;
 import static softvisionProject.framework.JavaMap.getNameEmail;
 
 
@@ -28,9 +29,14 @@ public class ContactPage extends BasePage {
 
     }
 
-    // HashMap Implementation from HashMap.class
+    // HashMap Implementation for name and email from HashMap.class
     String informationUtil = getNameEmail().get("first");
     String provide[] = informationUtil.split("_");
+    //
+
+    // HashMap Implementation for drop-down list from HashMap.class
+    String dropDownUtil = getDropList();
+
     //
 
     // Page Factory
@@ -63,6 +69,19 @@ public class ContactPage extends BasePage {
             InputEmail.sendKeys(provide[1]);
         } else {
             System.out.println("- email field display: fail");
+        }
+    }
+
+    public void OpenDropDownListCucumber(String chooseFromList) {
+        driver.manage().timeouts().pageLoadTimeout(12, TimeUnit.SECONDS);
+        if (RegardingList.isDisplayed()) {
+            System.out.println("- dropdown list display: pass");
+            RegardingList.click();
+            String dropDownElements = "//span[text()='" + chooseFromList + "']";
+            WebElement contactDropDown = driver.findElement(By.xpath(dropDownElements));
+            contactDropDown.click();
+        } else {
+            System.out.println("- dropdown list display: fail");
         }
     }
         //
