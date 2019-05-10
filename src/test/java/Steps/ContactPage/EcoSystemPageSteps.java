@@ -30,13 +30,13 @@ public class EcoSystemPageSteps extends BaseTest {
     @Then("^Open EcoSystemPage$")
     public void openPage() {
         openMenuPage("Our Ecosystem");
+        initializeEcoSystemPage();
     }
 
     // Scenario II
 
     @And("^Interact with the elements$")
     public void interactElements() {
-        initializeEcoSystemPage();
         eco.removeBot();
         eco.guilds();
         eco.pods();

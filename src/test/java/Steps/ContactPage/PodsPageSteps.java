@@ -30,25 +30,23 @@ public class PodsPageSteps extends BaseTest {
     @Then("^Open PodsPage$")
     public void openPodsPage() {
         openMenuPage("Pods");
+        initializePodsPage();
     }
 
     // Scenario II
 
     @And("^Click pod mitosis$")
     public void clickPodMitosis() {
-        initializePodsPage();
         pod.clickPodMitosis();
     }
 
     @And("^Click framework$")
     public void clickFramework() {
-        initializePodsPage();
         pod.clickFramework();
     }
 
     @And("^Click game of pods$")
     public void clickGameOfPods() {
-        initializePodsPage();
         pod.clickGameOfPods();
     }
 
@@ -56,13 +54,11 @@ public class PodsPageSteps extends BaseTest {
 
     @And("^Check paragraph$")
     public void checkParagraphs() {
-        initializePodsPage();
         pod.checkInnovationFirstParagraph();
     }
 
     @And("^Check PNG$")
     public void checkPNG() {
-        initializePodsPage();
         pod.checkPodPng();
     }
 }

@@ -29,13 +29,13 @@ public class AlliancesPageSteps extends BaseTest {
     @Then("^Open AlliancesPage$")
     public void openContactPage() {
         openMenuPage("Contact");
+        initializeAlliancesPage();
     }
 
     // Scenario II
 
     @And("^Check acquia brand$")
     public void checkAcquiaBrand() {
-        initializeAlliancesPage();
         alliance.acquia();
     }
 

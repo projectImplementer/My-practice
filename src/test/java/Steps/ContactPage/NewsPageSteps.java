@@ -29,13 +29,13 @@ public class NewsPageSteps extends BaseTest {
     @Then("^Open NewsPage$")
     public void openNewsPage() {
         openMenuPage("News");
+        initializeNewsPage();
     }
 
     // Scenario II
 
     @And("^Click Community Button$")
     public void clickCommunityButton() {
-        initializeNewsPage();
         news.clickCommunityBtn();
     }
 
@@ -43,7 +43,6 @@ public class NewsPageSteps extends BaseTest {
 
     @And("^Click Company News$")
     public void clickCompanyNews() {
-        initializeNewsPage();
         news.clickCompanyNewsBtn();
     }
 
@@ -51,7 +50,6 @@ public class NewsPageSteps extends BaseTest {
 
     @And("^Check Design Thinking$")
     public void checkDesignThinking() {
-        initializeNewsPage();
         news.designThinking();
     }
 
@@ -59,7 +57,6 @@ public class NewsPageSteps extends BaseTest {
 
     @And("^Open Tehnical Agility Conference article$")
     public void openTehnicalAgilityCOnferenceArticle() {
-        initializeNewsPage();
         news.eventsTab();
         news.eventsTabArticle1();
     }

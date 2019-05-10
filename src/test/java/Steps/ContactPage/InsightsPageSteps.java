@@ -27,55 +27,48 @@ public class InsightsPageSteps extends BaseTest {
     @Then("^Open InsightsPage$")
     public void openInsightsPage() {
         openMenuPage("Insights");
+        initializeInsightsPage();
     }
 
     // Scenario II
 
     @And("^Select Industries$")
     public void selectIndustries() {
-        initializeInsightsPage();
         insight.clickIndustries("Agriculture");
     }
     @And("^Select Guilds$")
     public void selectGuilds() {
-        initializeInsightsPage();
         insight.clickGuilds("Design & UX");
     }
     @And("^Click ShowMore$")
     public void clickShowMore() {
-        initializeInsightsPage();
         insight.clickShowMore();
     }
     @And("^Remove Overlay$")
     public void removeOverlay() {
-        initializeInsightsPage();
         insight.removeOverlay();
     }
     @Then("^Open DesignJam article$")
     public void designJamArticle() {
-        initializeInsightsPage();
         insight.articleDesignJam();
     }
     @And("^Return to InsightsPage$")
     public void returnToInsightsPage() {
-        initializeInsightsPage();
         openMenuPage("Insights");
+        initializeInsightsPage();
     }
     @Then("^Open MatiBaldi article$")
     public void openMatiBaldiarticle() {
-        initializeInsightsPage();
         insight.openMatiBaldiArticle();
     }
     @And("^Interact with swipe right arrow$")
     public void interactWithSwipeRightArrow() {
-        initializeInsightsPage();
         insight.clickRightArrow();
     }
 
     // Scenario III
     @And("^Click on ReadMore button$")
     public void clickOnReadMoreButton() {
-        initializeInsightsPage();
         insight.clickReadMore();
     }
 }

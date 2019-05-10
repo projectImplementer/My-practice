@@ -29,13 +29,13 @@ public class InnovationPageSteps extends BaseTest {
     @Then("^Open InnovationPage$")
     public void openInnovation() {
         openMenuPage("Innovation");
+        initializeInnovationPage();
     }
 
     // Scenario II
 
     @And("^Open Burst BlogPage$")
     public void openBurstBlogPage() {
-        initializeInnovationPage();
         innovate.innovateBurst();
     }
 
@@ -44,25 +44,21 @@ public class InnovationPageSteps extends BaseTest {
 
     @And("^Click Identify$")
     public void clickIdentify() {
-        initializeInnovationPage();
         innovate.identify();
     }
 
     @And("^Click Prototype$")
     public void clickPrototype() {
-        initializeInnovationPage();
         innovate.prototype();
     }
 
     @And("^Click Partner$")
     public void clickPartner() {
-        initializeInnovationPage();
         innovate.partner();
     }
 
     @And("^Click Roadmap$")
     public void clickRoadmap() {
-        initializeInnovationPage();
         innovate.roadmap();
     }
 

@@ -30,25 +30,23 @@ public class ServicesPageSteps extends BaseTest {
     @Then("^Open ServicesPage$")
     public void openServicesPage() {
         openMenuPage("Services");
+        initializeServicesPage();
     }
 
     // Scenario II
 
     @And("^Click Define User Journeys WebElement$")
     public void clickDefineUserJourneysWebElement() {
-        initializeServicesPage();
         service.defineUserJourneys();
     }
 
     @And("^Click Play on YT video$")
     public void clickPlayOnYTVideo() {
-        initializeServicesPage();
         service.playWeArePeopleVideo();
     }
 
     @And("^Check list item presence$")
     public void checkListItemPresence() {
-        initializeServicesPage();
         service.listItem();
     }
 

@@ -28,13 +28,13 @@ public class GuildsPageSteps extends BaseTest {
     @And("^Open GuildsPage$")
     public void openGuildsPage() {
         openMenuPage("Guilds");
+        initializeGuildsPage();
     }
 
     // Scenario II
 
     @And("^Click get in touch to find out more button$")
     public void clickGetInTouchButton() {
-        initializeGuildsPage();
         guild.findOutMore();
         guild.closeOverlayForm();
     }
@@ -43,7 +43,6 @@ public class GuildsPageSteps extends BaseTest {
 
     @And("^Click ReadMore Button$")
     public void clickReadMoreButton() {
-        initializeGuildsPage();
         guild.readMore();
     }
 
@@ -51,7 +50,6 @@ public class GuildsPageSteps extends BaseTest {
 
     @And("^Click SoftTechTag$")
     public void clickSoftTech() {
-        initializeGuildsPage();
         guild.softTech();
     }
 
@@ -59,7 +57,6 @@ public class GuildsPageSteps extends BaseTest {
 
     @And("^Click XamarinTag$")
     public void clickXamarinTag() {
-        initializeGuildsPage();
         guild.xamarin();
     }
 

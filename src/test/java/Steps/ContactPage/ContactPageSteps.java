@@ -30,13 +30,13 @@ public class ContactPageSteps extends BaseTest {
     @Then("^Open ContactPage$")
     public void openContactPage() {
         openMenuPage("Contact");
+        initializeContactPage();
     }
 
     // Scenario II
 
     @And("^Interact with ContactForm$")
     public void interactWithContactForm() {
-        initializeContactPage();
         contact.InputNameCucumber();
         contact.InputEmailCucumber();
         contact.OpenDropDownList("Press");
@@ -47,7 +47,6 @@ public class ContactPageSteps extends BaseTest {
 
     @And("^Open AustinStudio$")
     public void openAustinStudio() {
-        initializeContactPage();
         contact.austinStudio();
     }
 }

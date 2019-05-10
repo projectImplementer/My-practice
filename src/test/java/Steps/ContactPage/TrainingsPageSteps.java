@@ -31,13 +31,13 @@ public class TrainingsPageSteps extends BaseTest {
     @Then("^Open TrainingsPage$")
     public void openContactPage() {
         openMenuPage("Trainings");
+        initializeTrainingsPage();
     }
 
     // Scenario II
 
     @And("^Verify elements: title, body, preEmp title, preEmp body, IndiaBtn$")
     public void verifyElements() {
-        initializeTrainingsPage();
         training.verifyTojTitle();
         training.verifyTojBody();
         training.verifyPreEmpTitle();

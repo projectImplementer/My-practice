@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="89ee8350-93cb-4c4a-bbd1-fb825bf480cd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/AlliancesPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/AlliancesPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/ContactPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/ContactPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/EcoSystemPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/EcoSystemPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/GuildsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/GuildsPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/InnovationPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/InnovationPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/InsightsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/InsightsPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/NewsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/NewsPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/PodsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/PodsPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/ServicesPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/ServicesPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/TrainingsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/TrainingsPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/ContactPage/ContactPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/ContactPage/ContactPageSteps.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,28 +31,174 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Features/AlliancesPage.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="397">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoftVisionProject.eml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/EcoSystemPageSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="337">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/GuildsPageSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
+                <element signature="e#1236#1237#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/HomePageSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+              <folding>
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/InnovationPageSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+              <folding>
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#1273#1274#0" expanded="true" />
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#1378#1379#0" expanded="true" />
+                <element signature="e#1449#1450#0" expanded="true" />
+                <element signature="e#1483#1484#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/InsightsPageSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+              <folding>
+                <element signature="e#897#898#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
+                <element signature="e#1266#1267#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1614#1615#0" expanded="true" />
+                <element signature="e#1660#1661#0" expanded="true" />
+                <element signature="e#1763#1764#0" expanded="true" />
+                <element signature="e#1804#1805#0" expanded="true" />
+                <element signature="e#1936#1937#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/NewsPageSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
+              <folding>
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/PodsPageSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#929#930#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
+                <element signature="e#1263#1264#0" expanded="true" />
+                <element signature="e#1314#1315#0" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/ServicesPageSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+              <folding>
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1198#1199#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/TestNG.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/TrainingsPageSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="329">
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,33 +251,33 @@
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/testcases/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/ServicesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/InsightsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/ServicesPageSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/InsightsPageSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/InnovationPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/NewsPage/feature.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/NewsPage.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/NewsPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/testcases/ApproachPagesTestCases/EcoSystemfindText.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/EcoSystem.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/EcoSystemPageSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/GuildsPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/GuildsPage.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Features/PodsPage.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/PodsPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/Alliances.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/AlliancesPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/CareersPage.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Features/TrainingsPage.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/TrainingsPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/ClujNapocaStudioPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/framework/HashMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/framework/JavaMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/ContactPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/ContactPageSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java" />
         <option value="$PROJECT_DIR$/SoftVisionProject.eml" />
         <option value="$PROJECT_DIR$/target/TestNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Features/alixs.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/ContactPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/AlliancesPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/EcoSystemPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/GuildsPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/InnovationPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/InsightsPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/NewsPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/PodsPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/ServicesPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/TrainingsPageSteps.java" />
       </list>
     </option>
   </component>
@@ -136,10 +295,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
+    <option name="x" value="1856" />
+    <option name="y" value="-18" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="882" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -147,17 +306,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="btn" type="b2602c69:ProjectViewProjectNode" />
               <item name="btn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="btn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="btn" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="btn" type="b2602c69:ProjectViewProjectNode" />
@@ -188,14 +344,29 @@
             <path>
               <item name="btn" type="b2602c69:ProjectViewProjectNode" />
               <item name="btn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="btn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="btn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Steps" type="462c0819:PsiDirectoryNode" />
+              <item name="ContactPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="btn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="btn" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,7 +401,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml">
+  <component name="RunManager" selected="Cucumber java.Feature: ContactPage">
     <configuration name="Feature: ContactPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/ContactPage.feature" />
@@ -321,9 +492,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: ContactPage" />
         <item itemvalue="TestNG.C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" />
         <item itemvalue="Cucumber java.Feature: alixs" />
-        <item itemvalue="Cucumber java.Feature: ContactPage" />
         <item itemvalue="Cucumber java.Feature: PodsPage" />
         <item itemvalue="Cucumber java.Feature: EcoSystem" />
       </list>
@@ -343,24 +514,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__ContactPage - 2019.05.10 at 10h 37m 16s.xml">
-      <configuration name="Feature: ContactPage" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__ContactPage - 2019.05.10 at 10h 40m 28s.xml">
-      <configuration name="Feature: ContactPage" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__ContactPage - 2019.05.10 at 10h 42m 44s.xml">
-      <configuration name="Feature: ContactPage" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__ContactPage - 2019.05.10 at 12h 58m 16s.xml">
-      <configuration name="Feature: ContactPage" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.10 at 13h 11m 48s.xml">
-      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.10 at 13h 16m 54s.xml">
-      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.10 at 13h 20m 53s.xml">
       <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
     </history-entry>
@@ -373,11 +526,30 @@
     <history-entry file="Feature__alixs - 2019.05.10 at 13h 46m 59s.xml">
       <configuration name="Feature: alixs" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.10 at 13h 51m 24s.xml">
+      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.10 at 13h 52m 03s.xml">
+      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.10 at 13h 53m 17s.xml">
+      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.10 at 13h 54m 18s.xml">
+      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Feature__ContactPage - 2019.05.10 at 14h 17m 11s.xml">
+      <configuration name="Feature: ContactPage" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__ContactPage - 2019.05.10 at 14h 22m 51s.xml">
+      <configuration name="Feature: ContactPage" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4951246" visible="true" weight="0.32675907" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4951246" visible="true" weight="0.3304904" />
       <window_info id="Structure" order="1" sideWeight="0.5048754" side_tool="true" weight="0.3160981" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -435,59 +607,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/EcoSystemPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/ApproachPagesTestCases/EcoSystemfindText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/EcoSystem.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/ApproachPagesTestCases/EcoSystemselectAllElementsfromDeliver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/ApproachPagesTestCases/GuildsGetInTouchBtnTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/EcoSystemPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/GuildsPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/ApproachPagesTestCases/PodsPageParagraphAndPngTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -502,18 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/PodsPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/ApproachPagesTestCases/AlliancesPageCheckBrandsTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -525,18 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/AlliancesPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,16 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/TrainingsPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -645,16 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Features/EcoSystem.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -684,13 +759,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hhkj.eml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/ContactPage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SoftVisionProject.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -698,28 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/ContactPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/ContactPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,9 +822,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Features/alixs.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/dsadsa.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/dsadsa.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Features/AlliancesPage.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -788,7 +832,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SoftVisionProject.eml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="629">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
@@ -797,6 +841,198 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/ContactPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="44" selection-start-line="44" selection-end-line="45" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/ContactPage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/ContactPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/AlliancesPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/EcoSystemPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/GuildsPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/HomePageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/InnovationPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/InsightsPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+          <folding>
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#1936#1937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/NewsPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
+          <folding>
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/PodsPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/ServicesPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+          <folding>
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/TrainingsPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -31,13 +31,14 @@ public class CareersPageSteps extends BaseTest {
     @Then("^Open CareersPage$")
     public void openContactPage() {
         openMenuPage("Careers");
+        initializeCareersPage();
     }
 
     // Scenario II
 
     @And("^Select location/ expertise/ field/ click search button/ check title$")
     public void selectItems() {
-        initializeCareersPage();
+
         career.clickLocation("Bangalore");
         career.clickExpertise("Agile Transformation Guild");
         career.searchField("marketing");
