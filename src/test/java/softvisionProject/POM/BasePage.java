@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.JavascriptExecutor;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
@@ -32,17 +33,22 @@ public class BasePage {
     WebElement chatBotIframe;
     @FindBy(xpath = "//*[@id=\"uid-ctrl-5\"]")
     WebElement chatBox;
-    //@FindBy(xpath = "//*[@id='leadinModal-230912']")
-    //WebElement overlay;
+    @FindBy(id = "hs-eu-confirmation-button")
+    WebElement cookie;
     //
 
+
     // Methods
-    // click accept on cookie.
     public void acceptCookieMethod() {
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        String iD = "hs-eu-confirmation-button";
-        driver.findElement(By.id(iD)).click();
-        System.out.println("- cookie btn find and click: pass");
+        List<WebElement> cookies = driver.findElements(By.id("hs-eu-confirmation-button"));
+        if (cookies.size() != 0) {
+            driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+            cookie.click();
+            System.out.println("- cookie btn find and click: pass");
+        }
+        else {
+            System.out.println("- cookie not visible");
+        }
 
     }
 

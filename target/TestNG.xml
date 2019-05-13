@@ -5,21 +5,14 @@
 
 <suite name="SoftVisionProject" parallel="none" >
 
-<test name = "Test_Firefox">
+<test name = "Test">
     <parameter name="browserName" value="chrome" />
 
         <classes>
-            <class name="softvisionProject.testcases.ContactPageTestCases.openSoftVisionContactPage"/>
+            <class name="softvisionProject.testcases.WorkWithUsPagesTestCases.CareersPageFieldsTestCase"/>
         </classes>
 </test>
 
-<test name = "Test_Chrome">
-    <parameter name="browserName" value="chrome" />
-
-        <classes>
-            <class name="softvisionProject.testcases.ContactPageTestCases.openAustinStudio"/>
-        </classes>
-</test>
 
 
 

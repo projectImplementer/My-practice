@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ee8350-93cb-4c4a-bbd1-fb825bf480cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/softvisionProject/POM/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/softvisionProject/POM/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/softvisionProject/POM/CareersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/softvisionProject/POM/CareersPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/softvisionProject/POM/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/softvisionProject/POM/ContactPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/softvisionProject/framework/JavaMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/softvisionProject/framework/JavaMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/ContactPage/CareersPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/ContactPage/CareersPageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/softvisionProject/POM/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/softvisionProject/POM/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/softvisionProject/POM/CareersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/softvisionProject/POM/CareersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/softvisionProject/POM/ContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/softvisionProject/POM/ContactPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/softvisionProject/framework/JavaMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/softvisionProject/framework/JavaMap.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,157 +30,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/HomePageSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-              <folding>
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1201#1202#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/InnovationPageSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-              <folding>
-                <element signature="e#1032#1033#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1162#1163#0" expanded="true" />
-                <element signature="e#1237#1238#0" expanded="true" />
-                <element signature="e#1273#1274#0" expanded="true" />
-                <element signature="e#1344#1345#0" expanded="true" />
-                <element signature="e#1378#1379#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
-                <element signature="e#1483#1484#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/InsightsPageSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
-              <folding>
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#1012#1013#0" expanded="true" />
-                <element signature="e#1062#1063#0" expanded="true" />
-                <element signature="e#1125#1126#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
-                <element signature="e#1227#1228#0" expanded="true" />
-                <element signature="e#1266#1267#0" expanded="true" />
-                <element signature="e#1341#1342#0" expanded="true" />
-                <element signature="e#1383#1384#0" expanded="true" />
-                <element signature="e#1614#1615#0" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
-                <element signature="e#1763#1764#0" expanded="true" />
-                <element signature="e#1804#1805#0" expanded="true" />
-                <element signature="e#1936#1937#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/NewsPageSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
-              <folding>
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <element signature="e#1181#1182#0" expanded="true" />
-                <element signature="e#1218#1219#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/PodsPageSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
-                <element signature="e#966#967#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-                <element signature="e#1138#1139#0" expanded="true" />
-                <element signature="e#1175#1176#0" expanded="true" />
-                <element signature="e#1263#1264#0" expanded="true" />
-                <element signature="e#1314#1315#0" expanded="true" />
-                <element signature="e#1401#1402#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/ServicesPageSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
-              <folding>
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/TrainingsPageSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/ContactPageSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1236#1237#0" expanded="true" />
-                <element signature="e#1274#1275#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/ContactPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-412">
-              <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+            <state relative-caret-position="1905">
+              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-220">
+              <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3257#3258#0" expanded="true" />
+                <element signature="e#3325#3326#0" expanded="true" />
+                <element signature="e#3364#3365#0" expanded="true" />
+                <element signature="e#3414#3415#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,12 +60,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/framework/JavaMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+            <state relative-caret-position="72">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#262#278#0" expanded="true" />
-                <element signature="e#592#609#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/CareersPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="59" column="38" lean-forward="true" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/framework/helperClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,8 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/interactWithContactFormSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Features/navigateToContactPage.feature" />
         <option value="$PROJECT_DIR$/target/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/navigateToContactPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/HomePage.java" />
@@ -233,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/test/java/Steps/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/ContactPage.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Features/InnovationPage.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/testcases/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/ServicesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/InsightsPage.java" />
@@ -249,11 +159,9 @@
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/ClujNapocaStudioPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/framework/HashMap.java" />
         <option value="$PROJECT_DIR$/SoftVisionProject.eml" />
-        <option value="$PROJECT_DIR$/target/TestNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Features/alixs.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/ContactPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/AlliancesPageSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/EcoSystemPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/GuildsPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/InnovationPageSteps.java" />
@@ -262,8 +170,13 @@
         <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/PodsPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/ServicesPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/TrainingsPageSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/softvisionProject/framework/JavaMap.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/ContactPage.java" />
+        <option value="$PROJECT_DIR$/target/TestNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/CareersPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/softvisionProject/framework/JavaMap.java" />
       </list>
     </option>
   </component>
@@ -292,8 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,6 +270,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="softvisionProject" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="btn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="btn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="softvisionProject" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+              <item name="WorkWithUsPagesTestCases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="btn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="btn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -379,6 +309,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,7 +345,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: ContactPage">
+  <component name="RunManager" selected="TestNG.C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml">
+    <configuration name="Feature: CareersPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/CareersPage.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="SoftVisionProject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: CareersPage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: ContactPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/ContactPage.feature" />
@@ -432,14 +382,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: EcoSystem" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: HomePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/EcoSystem.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/HomePage.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="SoftVisionProject" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: EcoSystem" />
+      <option name="SUGGESTED_NAME" value="Feature: HomePage" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -450,32 +400,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: PodsPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: InsightsPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/PodsPage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/InsightsPage.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="SoftVisionProject" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: PodsPage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: alixs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/alixs.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="SoftVisionProject" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: alixs" />
+      <option name="SUGGESTED_NAME" value="Feature: InsightsPage" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -497,18 +429,18 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.Feature: ContactPage" />
-      <item itemvalue="Cucumber java.Feature: EcoSystem" />
-      <item itemvalue="Cucumber java.Feature: PodsPage" />
-      <item itemvalue="Cucumber java.Feature: alixs" />
+      <item itemvalue="Cucumber java.Feature: HomePage" />
+      <item itemvalue="Cucumber java.Feature: InsightsPage" />
+      <item itemvalue="Cucumber java.Feature: CareersPage" />
       <item itemvalue="TestNG.C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: ContactPage" />
         <item itemvalue="TestNG.C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" />
-        <item itemvalue="Cucumber java.Feature: alixs" />
-        <item itemvalue="Cucumber java.Feature: PodsPage" />
-        <item itemvalue="Cucumber java.Feature: EcoSystem" />
+        <item itemvalue="Cucumber java.Feature: CareersPage" />
+        <item itemvalue="Cucumber java.Feature: ContactPage" />
+        <item itemvalue="Cucumber java.Feature: InsightsPage" />
+        <item itemvalue="Cucumber java.Feature: HomePage" />
       </list>
     </recent_temporary>
   </component>
@@ -526,42 +458,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.10 at 13h 21m 54s.xml">
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.13 at 17h 39m 21s.xml">
       <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Feature__ContactPage - 2019.05.10 at 13h 45m 23s.xml">
-      <configuration name="Feature: ContactPage" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__alixs - 2019.05.10 at 13h 46m 59s.xml">
-      <configuration name="Feature: alixs" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.10 at 13h 51m 24s.xml">
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.13 at 17h 40m 21s.xml">
       <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.10 at 13h 52m 03s.xml">
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.13 at 17h 44m 59s.xml">
       <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.10 at 13h 53m 17s.xml">
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.13 at 17h 55m 29s.xml">
       <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.10 at 13h 54m 18s.xml">
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.13 at 17h 56m 15s.xml">
       <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Feature__ContactPage - 2019.05.10 at 14h 17m 11s.xml">
-      <configuration name="Feature: ContactPage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.13 at 18h 21m 04s.xml">
+      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Feature__ContactPage - 2019.05.10 at 14h 22m 51s.xml">
-      <configuration name="Feature: ContactPage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.13 at 18h 24m 06s.xml">
+      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Feature__ContactPage - 2019.05.10 at 14h 31m 41s.xml">
-      <configuration name="Feature: ContactPage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.13 at 18h 31m 18s.xml">
+      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.13 at 18h 31m 55s.xml">
+      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.13 at 18h 38m 36s.xml">
+      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4951246" visible="true" weight="0.4161074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4951246" visible="true" weight="0.28926176" />
       <window_info id="Structure" order="1" sideWeight="0.5048754" side_tool="true" weight="0.3160981" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -570,15 +510,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.29144096" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.4362606" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.33286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.51983005" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50319827" side_tool="true" weight="0.25568798" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932885" weight="0.3997833" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932885" weight="0.39943343" />
       <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -590,142 +530,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964539" visible="true" weight="0.33557048" />
-      <window_info id="Structure" order="1" sideWeight="0.5035461" side_tool="true" weight="0.3161074" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4951246" visible="true" weight="0.4281879" />
+      <window_info id="Structure" order="1" sideWeight="0.5048754" side_tool="true" weight="0.3160981" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.38101983" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731544" visible="true" weight="0.40084985" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.29144096" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.33286119" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.51983005" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026846" side_tool="true" weight="0.40084985" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932885" weight="0.4036827" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50319827" side_tool="true" weight="0.25568798" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932885" weight="0.39943343" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/ApproachPagesTestCases/PodsPageParagraphAndPngTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/ApproachPagesTestCases/PodsOurPodModelBtnTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/ApproachPagesTestCases/AlliancesPageCheckBrandsTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/ApproachPagesTestCases/AlliancesPageCheckInParagraphTextTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/openTrainingsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/checkTitleParagraphAndIndiaBtn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/ClujNapocaStudioPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/PodsPage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/AlliancesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/CareersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/framework/helperClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/ContactPageTestCases/openSoftVisionContactPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -753,13 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/HomePage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -816,61 +643,12 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/CareersPage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="75" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Features/alixs.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Features/dsadsa.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/AlliancesPage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SoftVisionProject.eml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/TestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/ContactPage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/AlliancesPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -900,44 +678,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/HomePageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-          <folding>
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/InnovationPageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="527">
           <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
           <folding>
             <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1483#1484#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/InsightsPageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
+        <state relative-caret-position="833">
           <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
           <folding>
             <element signature="e#897#898#0" expanded="true" />
@@ -952,8 +705,6 @@
             <element signature="e#1383#1384#0" expanded="true" />
             <element signature="e#1614#1615#0" expanded="true" />
             <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1763#1764#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
             <element signature="e#1936#1937#0" expanded="true" />
           </folding>
         </state>
@@ -961,13 +712,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/NewsPageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
+        <state relative-caret-position="799">
           <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
           <folding>
             <element signature="e#910#911#0" expanded="true" />
             <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
             <element signature="e#1181#1182#0" expanded="true" />
             <element signature="e#1218#1219#0" expanded="true" />
           </folding>
@@ -976,14 +725,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/PodsPageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="799">
           <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#929#930#0" expanded="true" />
             <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
             <element signature="e#1138#1139#0" expanded="true" />
             <element signature="e#1175#1176#0" expanded="true" />
             <element signature="e#1263#1264#0" expanded="true" />
@@ -995,13 +742,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/ServicesPageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="646">
           <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
           <folding>
             <element signature="e#1022#1023#0" expanded="true" />
             <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
             <element signature="e#1305#1306#0" expanded="true" />
           </folding>
         </state>
@@ -1009,7 +754,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/TrainingsPageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="561">
           <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1017,10 +762,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/designThinkingCategoryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/blogGettingStartedWithXamarinPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/AlliancesPage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/HomePageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/HomePage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/ContactPage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/ContactPageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="441">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1236#1237#0" expanded="true" />
@@ -1029,25 +826,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/framework/JavaMap.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/AlliancesPageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        <state relative-caret-position="339">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#262#278#0" expanded="true" />
-            <element signature="e#592#609#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/openCareersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/ContactPageTestCases/openAustinStudio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/CareersPage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="75" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/framework/helperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk/lib/src.zip!/java.base/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Selenium/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/HttpCommandExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Selenium/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/http/AbstractHttpCommandCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Selenium/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/json/Json.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Selenium/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/json/JsonOutput.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
+          <folding>
+            <element signature="e#8580#8581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/ClujNapocaStudioPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/framework/JavaMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3257#3258#0" expanded="true" />
+            <element signature="e#3325#3326#0" expanded="true" />
+            <element signature="e#3364#3365#0" expanded="true" />
+            <element signature="e#3414#3415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/CareersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="59" column="38" lean-forward="true" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/ContactPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-412">
-          <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        <state relative-caret-position="1905">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
         </state>
       </provider>
     </entry>

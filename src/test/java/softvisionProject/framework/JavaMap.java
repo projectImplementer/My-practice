@@ -1,10 +1,16 @@
 package softvisionProject.framework;
 
 import com.google.errorprone.annotations.Var;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import java.util.HashMap;
+import java.util.List;
+
 
 public class JavaMap {
+
 
      public static HashMap <String, String> getNameEmail() {
 
@@ -16,14 +22,17 @@ public class JavaMap {
         return nameEmail;
     }
 
-    public static HashMap <Integer, String> getDropList() {
+    public HashMap <String, WebElement> getDropList(WebDriver driver) {
+        List<WebElement> locations = driver.findElements(By.xpath("//div[@class='btn-group bootstrap-select locationselect dropup open']//div[@class='dropdown-menu open' and @role='combobox']/ul/li/a/span"));
+        System.out.println(locations.size());
+        HashMap <String, WebElement> dropList = new HashMap <String, WebElement>();
+        System.out.println("Populates2");
+        for (WebElement item: locations
+             ) {
+            dropList.put(item.getAttribute("innerHTML"), item);
+            System.out.println("Populates" + item.getAttribute("innerHTML"));
+        }
 
-         HashMap <Integer, String> dropList = new HashMap <Integer, String>();
-        dropList.put(1, "General");
-        dropList.put(2, "Work With Us");
-        dropList.put(3, "Business");
-        dropList.put(4, "Press");
-        dropList.put(5, "Microsoft");
 
          return dropList;
     }

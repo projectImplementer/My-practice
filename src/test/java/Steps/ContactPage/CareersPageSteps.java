@@ -26,6 +26,7 @@ public class CareersPageSteps extends BaseTest {
     public void contactOnSoftVisionAndCookieAccepted() {
         home = new HomePage(driver);
         home.acceptCookieMethod();
+        home.hoverWorkWithUsBtn();
     }
 
     @Then("^Open CareersPage$")
@@ -39,7 +40,8 @@ public class CareersPageSteps extends BaseTest {
     @And("^Select location/ expertise/ field/ click search button/ check title$")
     public void selectItems() {
 
-        career.clickLocation("Bangalore");
+        //career.clickLocation("Bangalore");
+        career.selectLocations();
         career.clickExpertise("Agile Transformation Guild");
         career.searchField("marketing");
         career.searchButton();

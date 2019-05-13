@@ -11,7 +11,7 @@ import softvisionProject.framework.JavaMap;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
-import static softvisionProject.framework.JavaMap.getDropList;
+
 import static softvisionProject.framework.JavaMap.getNameEmail;
 
 
@@ -35,7 +35,7 @@ public class ContactPage extends BasePage {
     //
 
     // HashMap Implementation for drop-down list from HashMap.class
-    String dropDownUtil = getDropList();
+   // String dropDownUtil = getDropList();
 
     //
 

@@ -4,6 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import softvisionProject.framework.JavaMap;
+
+import java.util.HashMap;
+import java.util.Set;
+
+
+import static softvisionProject.framework.JavaMap.getNameEmail;
 
 public class CareersPage extends BasePage {
 
@@ -18,7 +25,7 @@ public class CareersPage extends BasePage {
 
     // Page Factory
     @FindBy(xpath = "//span[text()='Location / Studios']")
-    WebElement location;
+    WebElement locationz;
     @FindBy(xpath = "//span[text()='Expertise / Guilds']")
     WebElement expertise;
     @FindBy(xpath = "//*[@id=\"careers-search-job\"]/div[3]/input")
@@ -29,11 +36,30 @@ public class CareersPage extends BasePage {
     WebElement searchTitle;
     //
 
+
+    // HashMap methods
+    public void selectLocations() {
+        if (locationz.isDisplayed()) {
+            System.out.println("- location display: pass");
+            locationz.click();
+            System.out.println("location display clicked");
+            JavaMap test = new JavaMap();
+            //HashMap <String, WebElement> dropDownList = test.getDropList(driver);
+            for (String location: test.getDropList(driver).keySet()) {
+                System.out.println(test.getDropList(driver).get(location));
+            }
+        } else {
+                System.out.println("- location display: fail");
+        }
+    }
+
+    //
+
     // Methods
     public void clickLocation(String selectLocation) {
-        if (location.isDisplayed()) {
+        if (locationz.isDisplayed()) {
             System.out.println("- location display: pass");
-            location.click();
+            locationz.click();
             String dropDownElements = "//span[contains(text(),'" + selectLocation + "')]";
             WebElement eNew42 = driver.findElement(By.xpath(dropDownElements));
             eNew42.click();
