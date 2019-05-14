@@ -38,15 +38,22 @@ public class CareersPage extends BasePage {
 
 
     // HashMap methods
-    public void selectLocations() {
+    public void selectLocations(String name) {
         if (locationz.isDisplayed()) {
             System.out.println("- location display: pass");
             locationz.click();
             System.out.println("location display clicked");
             JavaMap test = new JavaMap();
-            //HashMap <String, WebElement> dropDownList = test.getDropList(driver);
-            for (String location: test.getDropList(driver).keySet()) {
-                System.out.println(test.getDropList(driver).get(location));
+            HashMap <String, WebElement> dropDownList = test.getDropList(driver);
+            for (String location: dropDownList.keySet()) {
+                if (location.contains(name)) {
+                System.out.println("location by name found");
+                System.out.println("Name taken" + name);
+                dropDownList.get(location).click();
+                break;
+                } else {
+                System.out.println("Nothing to click on");
+            }
             }
         } else {
                 System.out.println("- location display: fail");
