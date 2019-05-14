@@ -52,7 +52,6 @@ public class CareersPage extends BasePage {
                 System.out.println("- location display: fail");
         }
     }
-
     //
 
     // Methods
@@ -63,8 +62,7 @@ public class CareersPage extends BasePage {
             String dropDownElements = "//span[contains(text(),'" + selectLocation + "')]";
             WebElement eNew42 = driver.findElement(By.xpath(dropDownElements));
             eNew42.click();
-        }
-        else {
+        } else {
             System.out.println("- location display: fail");
         }
         /* Locations available for selection:
@@ -73,7 +71,6 @@ public class CareersPage extends BasePage {
         baia-mare
         bangalore
         boston-ma
-
          */
     }
 
@@ -84,8 +81,7 @@ public class CareersPage extends BasePage {
             String dropDownElements = "//span[contains(text(),'" + selectExpertise + "')]";
             WebElement eNew42 = driver.findElement(By.xpath(dropDownElements));
             eNew42.click();
-        }
-        else {
+        } else {
             System.out.println("- expertise display: fail");
         }
     }
@@ -94,8 +90,7 @@ public class CareersPage extends BasePage {
         if(searchField.isDisplayed()) {
             System.out.println("- search field display: pass");
             searchField.sendKeys(input);
-        }
-        else {
+        } else {
             System.out.println("- search field display: fail");
         }
     }
@@ -104,8 +99,7 @@ public class CareersPage extends BasePage {
         if(searchBtn.isDisplayed()) {
             System.out.println("- search btn display: pass");
             searchBtn.click();
-        }
-        else {
+        } else {
             System.out.println("- search btn display: fail");
         }
     }

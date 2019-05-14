@@ -14,7 +14,6 @@ public class PodsPage extends BasePage {
         System.out.println("------------------------");
         System.out.println("Pods page was found.");
         System.out.println("------------------------");
-
     }
 
     // Page Factory
@@ -54,8 +53,7 @@ public class PodsPage extends BasePage {
             if (gameOfPods.isDisplayed()) {
                 System.out.println("- game of pods: pass");
                 gameOfPods.click();
-            }
-            else {
+            } else {
                 System.out.println("- game of pods: fail");
             }
         }
@@ -63,8 +61,7 @@ public class PodsPage extends BasePage {
         public void checkPodPng() {
             if (podPng.isDisplayed()) {
                 System.out.println("- pod chart display: pass");
-            }
-            else{
+            } else{
                 System.out.println("- pod chart display: fail");
             }
         }
@@ -72,8 +69,7 @@ public class PodsPage extends BasePage {
         public void checkInnovationFirstParagraph(){
             if (innovationP1.isDisplayed()) {
                 System.out.println("- first paragraph found: pass");
-            }
-            else{
+            } else{
                 System.out.println("- first paragraph found: fail");
             }
         }

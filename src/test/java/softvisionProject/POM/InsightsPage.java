@@ -21,7 +21,6 @@ public class InsightsPage extends BasePage {
         System.out.println("------------------------");
         System.out.println("Insights page is open.");
         System.out.println("------------------------");
-
     }
 
     //JS Executor
@@ -154,11 +153,11 @@ public class InsightsPage extends BasePage {
         //
     }
 }
+
+
  /*   public void clickPopUpSubscribe() {
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.elementToBeClickable(layout1));
         layout1.click();
-
     }
-
   */

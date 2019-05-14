@@ -31,10 +31,10 @@ public class TrainingsPage extends BasePage {
 
     // Methods
     public void verifyTojTitle() {
-    if(tojTitle.isDisplayed()) {
-        System.out.println("- tojTitle found: pass");
+        if(tojTitle.isDisplayed()) {
+            System.out.println("- tojTitle found: pass");
         } else {
-        System.out.println("- tojTitle found: fail");
+            System.out.println("- tojTitle found: fail");
         }
     }
 
@@ -70,6 +70,6 @@ public class TrainingsPage extends BasePage {
             System.out.println("- India btn display: fail");
         }
     }
-
     //
+
 }

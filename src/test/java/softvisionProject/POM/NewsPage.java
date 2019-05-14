@@ -33,13 +33,13 @@ public class NewsPage extends BasePage {
     WebElement eventsTab;
     @FindBy(xpath = "//article[@id='post-24938']//a[text()='Technical Agility Conference 2019']")
     WebElement eventsTabArticle1;
-
     //
 
     // Methods
     public void article1() {
         article1.click();
     }
+
     public void designThinking() {
         WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(designThinking));
@@ -50,16 +50,19 @@ public class NewsPage extends BasePage {
             System.out.println("- design thinking btn display: fail");
         }
     }
+
     public void clickCompanyNewsBtn() {
         WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(companyNews));
         checkIfElemIsDisplayedAndClickOnIt(companyNews);
     }
+
     public void clickCommunityBtn() {
         WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(community));
         checkIfElemIsDisplayedAndClickOnIt(community);
     }
+
     public void eventsTab() {
         if (eventsTab.isDisplayed()) {
             System.out.println("- events tab display: pass");

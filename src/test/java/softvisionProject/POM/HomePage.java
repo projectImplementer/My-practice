@@ -16,11 +16,9 @@ public class HomePage extends BasePage {
         super(driver);
 
         driver.findElement(By.xpath("//title[contains(text(),'Softvision')]"));
-      /*  System.out.println();
+     /* System.out.println();
         System.out.println("Home page found.");
-        System.out.println("-----------------------");
-        */
-
+        System.out.println("-----------------------"); */
     }
 
 
@@ -169,4 +167,5 @@ public class HomePage extends BasePage {
         clearSearch.click();
     }
     //
+
 }

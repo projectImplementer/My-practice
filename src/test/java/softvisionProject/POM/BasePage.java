@@ -45,8 +45,7 @@ public class BasePage {
             driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
             cookie.click();
             System.out.println("- cookie btn find and click: pass");
-        }
-        else {
+        } else {
             System.out.println("- cookie not visible");
         }
 

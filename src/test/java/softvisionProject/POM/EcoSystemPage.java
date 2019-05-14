@@ -126,9 +126,4 @@ public class EcoSystemPage extends BasePage{
     }
     //
 
-
-    /*public void text() {
-        Assert.assertEquals(text, text);
-        System.out.println("Body text found");
-    } */
 }

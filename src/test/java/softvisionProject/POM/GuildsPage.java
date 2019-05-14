@@ -44,8 +44,7 @@ public class GuildsPage extends BasePage {
         if(xamarin.isDisplayed()) {
             System.out.println("- xamarin click: pass");
             xamarin.click();
-        }
-        else {
+        } else {
             System.out.println("- xamarin click: fail");
         }
     }
@@ -54,8 +53,7 @@ public class GuildsPage extends BasePage {
         if(readMore.isDisplayed()) {
             System.out.println("- read more btn is present: pass");
             readMore.click();
-        }
-        else {
+        } else {
             System.out.println("- read more btn is present: fail");
         }
     }
@@ -64,8 +62,7 @@ public class GuildsPage extends BasePage {
         if(findOutBtn.isDisplayed()){
             System.out.println("- btn is clicked: pass");
             findOutBtn.click();
-        }
-        else {
+        } else {
             System.out.println("- btn is clicked: fail");
         }
     }
@@ -74,8 +71,7 @@ public class GuildsPage extends BasePage {
         if(closeOverlayForm.isDisplayed()) {
             System.out.println("- overlay close: pass");
             closeOverlayForm.click();
-        }
-        else {
+        } else {
             System.out.println("- overlay close: fail");
         }
     }

@@ -16,7 +16,6 @@ public class InnovationPage extends BasePage {
         System.out.println("------------------------");
         System.out.println("Innovation Page was found.");
         System.out.println("------------------------");
-
     }
 
     // Javascript executor

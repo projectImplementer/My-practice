@@ -26,17 +26,11 @@ public class ContactPage extends BasePage {
         System.out.println("-----------------------");
         System.out.println("Contact page was found.");
         System.out.println("-----------------------");
-
     }
 
     // HashMap Implementation for name and email from HashMap.class
     String informationUtil = getNameEmail().get("first");
     String provide[] = informationUtil.split("_");
-    //
-
-    // HashMap Implementation for drop-down list from HashMap.class
-   // String dropDownUtil = getDropList();
-
     //
 
     // Page Factory

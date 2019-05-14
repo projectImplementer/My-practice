@@ -12,6 +12,5 @@ public class WindowsServerPage extends BasePage {
         System.out.println("------------------------");
         System.out.println("Windows Server page was found.");
         System.out.println("------------------------");
-
     }
 }

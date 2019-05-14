@@ -19,6 +19,7 @@ public class productDesignPage extends BasePage {
     // Page Factory
     @FindBy(xpath = "//span[contains(text(),'full case')]")
     WebElement readTheFullCaseStudy;
+    //
 
     // Methods
     public void clickFullCaseStudy() {

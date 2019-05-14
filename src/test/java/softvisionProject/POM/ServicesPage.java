@@ -17,8 +17,6 @@ public class ServicesPage extends BasePage {
         System.out.println("------------------------");
         System.out.println("Services Page was found");
         System.out.println("------------------------");
-
-        //System.out.println("Define user journeys text link: pass");
     }
 
     // Page Factory
@@ -54,10 +52,8 @@ public class ServicesPage extends BasePage {
             System.out.println("- video overlay btn display: pass");
             playBtnOverlay.click();
             switchToFrame(By.xpath("//iframe[contains(@src, 'https://www.youtube.com/embed')]"));
-            //driver.switchTo().frame(driver.findElement(By.xpath("//iframe[contains(@src, 'https://www.youtube.com/embed')]")));
             playBtnOnYoutube.click();
             switchToMainFrame();
-            //driver.switchTo().defaultContent();
         } else {
             System.out.println("- video overlay btn display: fail");
         }
@@ -68,8 +64,7 @@ public class ServicesPage extends BasePage {
         if (shiftToMicroservices.isDisplayed()){
             js.executeScript("arguments[0].scrollIntoView();", shiftToMicroservices);
             System.out.println("- list item display: pass");
-        }
-        else {
+        } else {
             System.out.println("- list item display: fail");
         }
     }
