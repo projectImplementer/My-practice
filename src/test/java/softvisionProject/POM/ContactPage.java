@@ -28,22 +28,44 @@ public class ContactPage extends BasePage {
         System.out.println("-----------------------");
     }
 
-    // HashMap Implementation for name and email from HashMap.class
-    String informationUtil = getNameEmail().get("first");
-    String provide[] = informationUtil.split("_");
-    //
-
     // Page Factory
     @FindBy(xpath = "//*[@id=\"firstname-ab348b60-7918-48db-b045-b90d8666eaf0\"]")
     WebElement InputName;
-    @FindBy(xpath ="//*[@id=\"email-ab348b60-7918-48db-b045-b90d8666eaf0\"]")
+    @FindBy(xpath = "//*[@id=\"email-ab348b60-7918-48db-b045-b90d8666eaf0\"]")
     WebElement InputEmail;
     @FindBy(xpath = "//*[@id=\"hsForm_ab348b60-7918-48db-b045-b90d8666eaf0\"]/div[3]/div/div/div/button")
-    WebElement RegardingList;
+    WebElement RegardingListz;
     @FindBy(xpath = "//*[@id=\"message-ab348b60-7918-48db-b045-b90d8666eaf0\"]")
     WebElement InputMessage;
     @FindBy(xpath = "/html/body/div[2]/div/div/div/div[2]/div/div[3]/div/div/div/div/div/div[1]/div/div[1]/div/div/div[2]/div/h2/a/strong")
     WebElement austinStudio;
+    //
+
+
+    // HashMap Implementation for name and email from HashMap.class
+    String informationUtil = getNameEmail().get("first");
+    String provide[] = informationUtil.split("_");
+
+    //HashMap methods - get regarding List items
+    public void clickRegardingList(String name) {
+        driver.manage().timeouts().pageLoadTimeout(12, TimeUnit.SECONDS);
+        if (RegardingListz.isDisplayed()) {
+            System.out.println("- regarding list displayed");
+            RegardingListz.click();
+            JavaMap test = new JavaMap();
+            HashMap<String, WebElement> regardingList = test.getRegardingList(driver);
+            // for (String domain: regardingList.keySet()) {
+            if (regardingList.containsKey(name)) {
+                System.out.println("Regarding item: " + name + " found");
+                regardingList.get(name).click();
+                // break;
+            } else {
+                System.out.println("The desired regarding item " + name + " cannot be found in this list");
+            }
+        } else {
+            System.out.println("- regarding list not displayed");
+        }
+    }
     //
 
     // Cucumber Methods
@@ -65,20 +87,9 @@ public class ContactPage extends BasePage {
             System.out.println("- email field display: fail");
         }
     }
-
-    public void OpenDropDownListCucumber(String chooseFromList) {
-        driver.manage().timeouts().pageLoadTimeout(12, TimeUnit.SECONDS);
-        if (RegardingList.isDisplayed()) {
-            System.out.println("- dropdown list display: pass");
-            RegardingList.click();
-            String dropDownElements = "//span[text()='" + chooseFromList + "']";
-            WebElement contactDropDown = driver.findElement(By.xpath(dropDownElements));
-            contactDropDown.click();
-        } else {
-            System.out.println("- dropdown list display: fail");
-        }
-    }
         //
+
+
 
     // Methods
     public void InputNamePlease(String getName){
@@ -101,9 +112,9 @@ public class ContactPage extends BasePage {
     }
     public void OpenDropDownList(String chooseFromList) {
         driver.manage().timeouts().pageLoadTimeout(12, TimeUnit.SECONDS);
-        if (RegardingList.isDisplayed()) {
+        if (RegardingListz.isDisplayed()) {
             System.out.println("- dropdown list display: pass");
-            RegardingList.click();
+            RegardingListz.click();
             String dropDownElements = "//span[text()='" + chooseFromList + "']";
             WebElement contactDropDown = driver.findElement(By.xpath(dropDownElements));
             contactDropDown.click();

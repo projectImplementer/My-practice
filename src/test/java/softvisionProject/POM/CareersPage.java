@@ -65,20 +65,23 @@ public class CareersPage extends BasePage {
         if (expertisez.isDisplayed()) {
             System.out.println("- expertise displayed");
             expertisez.click();
-            System.out.println("- expertise not displayed");
+            System.out.println("- expertise display clicked");
             JavaMap test = new JavaMap();
-            HashMap <String, WebElement> expertiseList = test.getExpertiseList(driver);
-                for(String expertise: expertiseList.keySet()) {
-                    if (expertise.contains(name)) {
-                        System.out.println("Expertise found : " + name);
-                        expertiseList.get(expertise).click();
-                        break;
-                    } else {
+            HashMap<String, WebElement> expertiseList = test.getExpertiseList(driver);
+            for (String expertise : expertiseList.keySet()) {
+                if (expertise.contains(name)) {
+                    System.out.println("Expertise found : " + name);
+                    expertiseList.get(expertise).click();
+                    break;
+                } else {
                     System.out.println("The desired expertise " + name + " cannot be found in this list");
-                    }
                 }
+            }
+        } else {
+                System.out.println("- expertise not displayed");
+            }
         }
-    }
+
     //
 
     // Methods

@@ -35,7 +35,8 @@ public class inputSoftVisionContactPageContactUsForm extends BaseTest {
         urlAssert("contact");
         contactUsForm.InputNamePlease("Bogdan");
         contactUsForm.InputEmailPlease("at@at.com");
-        contactUsForm.OpenDropDownList("Press");
+        //contactUsForm.OpenDropDownList("Press");
+        contactUsForm.clickRegardingList("Press");
         contactUsForm.InputMessagePlease("Please check my request");
         /* DropDownList choices:
         General

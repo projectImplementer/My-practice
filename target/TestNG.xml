@@ -9,7 +9,7 @@
     <parameter name="browserName" value="chrome" />
 
         <classes>
-            <class name="softvisionProject.testcases.WorkWithUsPagesTestCases.CareersPageFieldsTestCase"/>
+            <class name="softvisionProject.testcases.ContactPageTestCases.inputSoftVisionContactPageContactUsForm"/>
         </classes>
 </test>
 
