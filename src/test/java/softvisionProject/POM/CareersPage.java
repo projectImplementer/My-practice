@@ -27,7 +27,7 @@ public class CareersPage extends BasePage {
     @FindBy(xpath = "//span[text()='Location / Studios']")
     WebElement locationz;
     @FindBy(xpath = "//span[text()='Expertise / Guilds']")
-    WebElement expertise;
+    WebElement expertisez;
     @FindBy(xpath = "//*[@id=\"careers-search-job\"]/div[3]/input")
     WebElement searchField;
     @FindBy(xpath = "//span[text()='Search']")
@@ -37,7 +37,7 @@ public class CareersPage extends BasePage {
     //
 
 
-    // HashMap methods
+    // HashMap methods - get the LOCATION / STUDIOS drop down list items
     public void selectLocations(String name) {
         if (locationz.isDisplayed()) {
             System.out.println("- location display: pass");
@@ -45,18 +45,38 @@ public class CareersPage extends BasePage {
             System.out.println("location display clicked");
             JavaMap test = new JavaMap();
             HashMap <String, WebElement> dropDownList = test.getDropList(driver);
-            for (String location: dropDownList.keySet()) {
-                if (location.contains(name)) {
-                System.out.println("location by name found");
-                System.out.println("Name taken" + name);
-                dropDownList.get(location).click();
-                break;
-                } else {
-                System.out.println("Nothing to click on");
-            }
-            }
+                for (String location: dropDownList.keySet()) {
+                    if (location.contains(name)) {
+                    System.out.println("location by name found");
+                    System.out.println("Name taken " + name);
+                    dropDownList.get(location).click();
+                    break;
+                    } else {
+                    System.out.println("Nothing to click on");
+                    }
+                }
         } else {
                 System.out.println("- location display: fail");
+        }
+    }
+
+    // HashMap methods - get the EXPERTISE / GUILDS drop down list items
+    public void selectExpertise(String name) {
+        if (expertisez.isDisplayed()) {
+            System.out.println("- expertise display: pass");
+            expertisez.click();
+            System.out.println("- expertise display clicked");
+            JavaMap test = new JavaMap();
+            HashMap <String, WebElement> expertiseList = test.getExpertiseList(driver);
+                for(String expertise: expertiseList.keySet()) {
+                    if (expertise.contains(name)) {
+                        System.out.println("Expertise found : " + name);
+                        expertiseList.get(expertise).click();
+                        break;
+                    } else {
+                    System.out.println("Nothing to click on");
+                    }
+                }
         }
     }
     //
@@ -82,9 +102,9 @@ public class CareersPage extends BasePage {
     }
 
     public void clickExpertise(String selectExpertise) {
-        if (expertise.isDisplayed()) {
+        if (expertisez.isDisplayed()) {
             System.out.println("- expertise display: pass");
-            expertise.click();
+            expertisez.click();
             String dropDownElements = "//span[contains(text(),'" + selectExpertise + "')]";
             WebElement eNew42 = driver.findElement(By.xpath(dropDownElements));
             eNew42.click();
