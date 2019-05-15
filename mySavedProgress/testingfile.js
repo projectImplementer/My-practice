@@ -1,0 +1,23 @@
+//_1           | 2019-05-14T15:46:10.798Z INFO PID:11 aiohttp.server::server(1876) {'message': "Login success for user 'service-owner+auth@farmersbusinessnetwork.com' 3995", 'id': '009a4a1b855c487997d0b0a2b0af9225', 'client': 'Python/3.6 aiohttp/3.3.2.2', 'ip': '172.19.0.14', 'country': 'unknown'}
+//[AWS CodeBuild Plugin] auth_server_1           | 2019-05-14T15:46:10.918Z INFO PID:11 aiohttp.server::keychain(259) {'message': 'Adding token c3bc5fe16618e66bd74c1c10fb8dfafd1aad147edbff298027bd3e23a9648688 to the active_tokens table.', 'id': '009a4a1b855c487997d0b0a2b0af9225', 'client': 'Python/3.6 aiohttp/3.3.2.2', 'ip': '172.19.0.14', 'country': 'unknown'}
+//[AWS CodeBuild Plugin] auth_server_1           | 2019-05-14T15:46:10.925Z INFO PID:11 AuthServer::helpers(477) {'message': '172.19.0.23 [14/May/2019:15:46:10 +0000] 0.201746 "POST /api/auth/login/basic HTTP/1.1" 200 895 "-" "Python/3.6 aiohttp/3.3.2.2" "Python/3.6 aiohttp/3.3.2.2" "172.19.0.14', 'id': '009a4a1b855c487997d0b0a2b0af9225', 'client': 'Python/3.6 aiohttp/3.3.2.2', 'ip': '172.19.0.14', 'country': 'unknown'}
+//[AWS CodeBuild Plugin] router_1                | <134>May 14 15:46:10 haproxy[18]: {"timestamp":"14/May/2019:15:46:10 +0000","remote_ip":"172.19.0.14","host":"9bd1de91330e","method":"POST","uri":"/api/auth/login/basic","headers":"{||Python/3.6 aiohttp/3.3.2.2}","status":200,"response_ms":1377,"response_bytes":895,"upstream_ms":203,"worker_pid":18,"frontend":"fe_api_router","backend":"be_auth"}
+//[AWS CodeBuild Plugin] auth_server_1           | 2019-05-14T15:46:11.217Z INFO PID:11 aiohttp.server::token(94) {'message': 'A1 token validation success for c3bc5fe16618e66bd74c1c10fb8dfafd1aad147edbff298027bd3e23a9648688', 'id': '2b0e1edafe8c4848a7816cb45a4e6956', 'client': 'Python/3.6 aiohttp/3.3.2.2', 'ip': '172.19.0.11', 'country': 'unknown'}
+//[AWS CodeBuild Plugin] auth_server_1           | 2019-05-14T15:46:11.218Z INFO PID:11 aiohttp.server::routes(115) {'message': 'A2V2 request for "{"for_user": null, "new_a2": true, "op": "individual", "resources": ["/enterprise:120455/in-field/*|r"], "update_cache": false}" for user 3995 by user 3995', 'id': '2b0e1edafe8c4848a7816cb45a4e6956', 'client': 'Python/3.6 aiohttp/3.3.2.2', 'ip': '172.19.0.11', 'country': 'unknown'}
+//[AWS CodeBuild Plugin] auth_server_1           | 2019-05-14T15:46:11.218Z INFO PID:11 aiohttp.server::routes(131) {'message': 'A2 request result "{"/enterprise:120455/in-field/*|r": true}" for user 3995 by user 3995', 'id': '2b0e1edafe8c4848a7816cb45a4e6956', 'client': 'Python/3.6 aiohttp/3.3.2.2', 'ip': '172.19.0.11', 'country': 'unknown'}
+//[AWS CodeBuild Plugin] auth_server_1           | 2019-05-14T15:46:11.219Z INFO PID:11 AuthServer::helpers(477) {'message': '172.19.0.23 [14/May/2019:15:46:11 +0000] 0.007877 "POST /api/auth/authorize HTTP/1.1" 200 203 "-" "Python/3.6 aiohttp/3.3.2.2" "Python/3.6 aiohttp/3.3.2.2" "172.19.0.11', 'id': '2b0e1edafe8c4848a7816cb45a4e6956', 'client': 'Python/3.6 aiohttp/3.3.2.2', 'ip': '172.19.0.11', 'country': 'unknown'}
+//[AWS CodeBuild Plugin] router_1                | <134>May 14 15:46:11 haproxy[18]: {"timestamp":"14/May/2019:15:46:11 +0000","remote_ip":"172.19.0.11","host":"9bd1de91330e","method":"POST","uri":"/api/auth/authorize","headers":"{||Python/3.6 aiohttp/3.3.2.2}","status":200,"response_ms":12,"response_bytes":203,"upstream_ms":10,"worker_pid":18,"frontend":"fe_api_router","backend":"be_auth"}
+//[AWS CodeBuild Plugin] ag_data_1               | 2019-05-14T15:46:11.219Z WARNING PID:12 datadog.dogstatsd::base(332) Error submitting packet: [Errno 111] Connection refused, dropping the packet and closing the socket
+//[AWS CodeBuild Plugin] router_1                | <134>May 14 15:46:11 haproxy[18]: {"timestamp":"14/May/2019:15:46:11 +0000","remote_ip":"172.19.0.14","host":"9bd1de91330e","method":"GET","uri":"/api/ag-data/enterprises/120455/harvest/latest","headers":"{||Python/3.6 aiohttp/3.3.2.2}","status":200,"response_ms":26,"response_bytes":147,"upstream_ms":24,"worker_pid":18,"frontend":"fe_api_router","backend":"be_agdata"}
+//[AWS CodeBuild Plugin] ag_data_1               | 2019-05-14T15:46:11.225Z INFO PID:12 agdata::helpers(477) {'message': '172.19.0.23 [14/May/2019:15:46:11 +0000] 0.021657 "GET /api/ag-data/enterprises/120455/harvest/latest HTTP/1.1" 200 147 "-" "Python/3.6 aiohttp/3.3.2.2" "Pyth
+import java.io.*;  
+public class FileExample {  
+public static void main(String[] args) {  
+    File f=new File("/Users/sonoojaiswal/Documents");  
+    String filenames[]=f.list();  
+    for(String filename:filenames){  
+        System.out.println(filename);  
+    }  
+}  
+}  
+
