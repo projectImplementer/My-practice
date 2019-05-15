@@ -20,7 +20,6 @@ public class GuildsPageSoftTechHashtagTestCase extends BaseTest {
 
         openMenuPage("Guilds");
         GuildsPage guilds = new GuildsPage(driver);
-        guilds.softTech();
-        softwareTechnologyCategoryPage soft = new softwareTechnologyCategoryPage(driver);
+        softwareTechnologyCategoryPage soft = guilds.softTech();
     }
 }
