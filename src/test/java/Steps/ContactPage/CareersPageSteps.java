@@ -42,7 +42,7 @@ public class CareersPageSteps extends BaseTest {
 
         //career.clickLocation("Bangalore");
         career.selectLocations("to be removed later");
-        career.clickExpertise("Agile Transformation Guild");
+        career.selectExpertise("Agile Transformation Guild");
         career.searchField("marketing");
         career.searchButton();
         career.title();

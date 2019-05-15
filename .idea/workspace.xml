@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ee8350-93cb-4c4a-bbd1-fb825bf480cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/softvisionProject/POM/CareersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/softvisionProject/POM/CareersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/softvisionProject/framework/JavaMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/softvisionProject/framework/JavaMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,18 +35,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="98" column="35" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/ClujNapocaStudioPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -63,11 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="68">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Hooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -84,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/CareersPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
-              <caret line="81" column="6" lean-forward="true" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+            <state relative-caret-position="165">
+              <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            <state relative-caret-position="219">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,10 +195,10 @@
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/EcoSystemPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/ContactPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/framework/JavaMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/POM/CareersPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java" />
       </list>
     </option>
   </component>
@@ -449,10 +450,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: CareersPage" />
       <item itemvalue="Cucumber java.Feature: ContactPage" />
       <item itemvalue="Cucumber java.Feature: HomePage" />
       <item itemvalue="Cucumber java.Feature: InsightsPage" />
+      <item itemvalue="Cucumber java.Feature: CareersPage" />
       <item itemvalue="TestNG.C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" />
     </list>
     <recent_temporary>
@@ -487,9 +488,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.14 at 17h 41m 31s.xml">
-      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.14 at 17h 55m 59s.xml">
       <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
     </history-entry>
@@ -517,6 +515,9 @@
     <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.14 at 18h 23m 16s.xml">
       <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_btn_target_TestNG_xml - 2019.05.15 at 11h 35m 12s.xml">
+      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/btn/target/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,7 +541,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.29144096" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.33286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.33286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51983005" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -594,16 +595,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updates" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/InnovationPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="e#1032#1033#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/InsightsPageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -1007,27 +998,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/TestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/designThinkingCategoryPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,20 +1016,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/POM/CareersPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="81" column="6" lean-forward="true" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        <state relative-caret-position="165">
+          <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/softvisionProject/testcases/WorkWithUsPagesTestCases/CareersPageFieldsTestCase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ContactPage/CareersPageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="219">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
