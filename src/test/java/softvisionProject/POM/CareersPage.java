@@ -40,7 +40,7 @@ public class CareersPage extends BasePage {
     // HashMap methods - get the LOCATION / STUDIOS drop down list items
     public void selectLocations(String name) {
         if (locationz.isDisplayed()) {
-            System.out.println("- location display: pass");
+            System.out.println("- location displayed");
             locationz.click();
             System.out.println("location display clicked");
             JavaMap test = new JavaMap();
@@ -52,20 +52,20 @@ public class CareersPage extends BasePage {
                     dropDownList.get(location).click();
                     break;
                     } else {
-                    System.out.println("Nothing to click on");
+                    System.out.println("The desired location " + name + " cannot be found in this list");
                     }
                 }
         } else {
-                System.out.println("- location display: fail");
+                System.out.println("- location not displayed");
         }
     }
 
     // HashMap methods - get the EXPERTISE / GUILDS drop down list items
     public void selectExpertise(String name) {
         if (expertisez.isDisplayed()) {
-            System.out.println("- expertise display: pass");
+            System.out.println("- expertise displayed");
             expertisez.click();
-            System.out.println("- expertise display clicked");
+            System.out.println("- expertise not displayed");
             JavaMap test = new JavaMap();
             HashMap <String, WebElement> expertiseList = test.getExpertiseList(driver);
                 for(String expertise: expertiseList.keySet()) {
@@ -74,7 +74,7 @@ public class CareersPage extends BasePage {
                         expertiseList.get(expertise).click();
                         break;
                     } else {
-                    System.out.println("Nothing to click on");
+                    System.out.println("The desired expertise " + name + " cannot be found in this list");
                     }
                 }
         }
@@ -84,13 +84,13 @@ public class CareersPage extends BasePage {
     // Methods
     public void clickLocation(String selectLocation) {
         if (locationz.isDisplayed()) {
-            System.out.println("- location display: pass");
+            System.out.println("- location displayed");
             locationz.click();
             String dropDownElements = "//span[contains(text(),'" + selectLocation + "')]";
             WebElement eNew42 = driver.findElement(By.xpath(dropDownElements));
             eNew42.click();
         } else {
-            System.out.println("- location display: fail");
+            System.out.println("- location not displayed");
         }
         /* Locations available for selection:
         atlanta-ga
@@ -103,13 +103,13 @@ public class CareersPage extends BasePage {
 
     public void clickExpertise(String selectExpertise) {
         if (expertisez.isDisplayed()) {
-            System.out.println("- expertise display: pass");
+            System.out.println("- expertise displayed");
             expertisez.click();
             String dropDownElements = "//span[contains(text(),'" + selectExpertise + "')]";
             WebElement eNew42 = driver.findElement(By.xpath(dropDownElements));
             eNew42.click();
         } else {
-            System.out.println("- expertise display: fail");
+            System.out.println("- expertise not displayed");
         }
     }
 
