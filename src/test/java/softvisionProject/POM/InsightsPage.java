@@ -66,18 +66,6 @@ public class InsightsPage extends BasePage {
         } else {
             System.out.println("- industries list btn display: fail");
         }
-        /*Possible industries:
-        Agriculture
-        All Industries
-        Financial Services
-        Healthcare & Pharma
-        Insurance
-        Media & Entertainment
-        Oil & Gas
-        Retail
-        Software & Technology
-        Travel & Hospitality
-         */
     }
 
     public void clickGuilds(String chooseGuild) {
@@ -90,15 +78,12 @@ public class InsightsPage extends BasePage {
         } else {
             System.out.println("- guilds list display: fail");
         }
-        /*Possible guilds:
-        Design & UX
-        Play
-         */
     }
 
     public void clickShowMore() {
         if (ShowMore.isDisplayed()) {
             System.out.println("- show more btn display: pass");
+	JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("arguments[0].scrollIntoView();", ShowMore);
             ShowMore.click();
         } else {
@@ -107,7 +92,8 @@ public class InsightsPage extends BasePage {
     }
 
     public void clickRightArrow() {
-        js.executeScript("arguments[0].scrollIntoView();", rightArrowScroll);
+JavascriptExecutor js = (JavascriptExecutor) driver;        
+js.executeScript("arguments[0].scrollIntoView();", rightArrowScroll);
         if (rightArrowScroll.isDisplayed()) {
             System.out.println("- clicking right arrow 7 times: pass");
             for (int i = 0; i < 8; i++) {
