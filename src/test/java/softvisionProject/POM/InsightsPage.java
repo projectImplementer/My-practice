@@ -23,11 +23,7 @@ public class InsightsPage extends BasePage {
         System.out.println("------------------------");
     }
 
-    //JS Executor
-    JavascriptExecutor js = (JavascriptExecutor) driver;
-    //
-
-    // Page Factory
+    #region Page Factory
     @FindBy(xpath = "/html/body/div[2]/div/div/div/div[2]/div[1]/div[2]/div/div/div/a[2]")
     WebElement ReadMore;
     @FindBy(xpath = "/html/body/div[2]/div/div/div/div[1]/div/div/div[2]/div/button/span[1]")
@@ -45,7 +41,7 @@ public class InsightsPage extends BasePage {
     @FindBy(xpath = "//*[@id=\"post-25165\"]/div[2]/div/div/h5/a")
     WebElement matiBaldi;
     //
-
+#endregion
     // Methods
     public void clickReadMore() {
         if (ReadMore.isDisplayed()) {
@@ -119,7 +115,8 @@ js.executeScript("arguments[0].scrollIntoView();", rightArrowScroll);
         if (overlay.isDisplayed()) {
             System.out.println();
             System.out.println("FOUND OVERLAY");
-            js.executeScript("arguments[0].parentNode.removeChild(arguments[0])", overlay);
+JavascriptExecutor js = (JavascriptExecutor) driver;           
+ js.executeScript("arguments[0].parentNode.removeChild(arguments[0])", overlay);
             System.out.println("REMOVING OVERLAY...");
             System.out.println("OVERLAY REMOVED");
             System.out.println();
