@@ -19,7 +19,8 @@ public class CareersPageFieldsTestCase extends BaseTest {
         CareersPage careers = new CareersPage(driver);
         //careers.clickLocation("Bangalore");
         careers.selectLocations("Austin, TX");
-        careers.clickExpertise("Agile Transformation Guild");
+        //careers.clickExpertise("Agile Transformation Guild");
+        careers.selectExpertise("Agile Transformation Guild");
         careers.searchField("marketing");
         careers.searchButton();
         careers.title();
