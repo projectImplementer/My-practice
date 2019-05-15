@@ -50,10 +50,10 @@ public class ContactPage extends BasePage {
     public void InputNameCucumber(){
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         if(InputName.isDisplayed()) {
-            System.out.println("- name field display: pass");
+            System.out.println("- Name input field was displayed");
             InputName.sendKeys(provide[0]);
         } else {
-            System.out.println("- name field display: fail");
+            System.out.println("- Name input field is NOT displayed!");
         }
     }
     public void InputEmailCucumber() {
