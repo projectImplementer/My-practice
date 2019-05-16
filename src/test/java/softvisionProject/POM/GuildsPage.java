@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+import softvisionProject.POM.softwareTechnologyCategoryPage;
 
 public class GuildsPage extends BasePage {
 
@@ -31,13 +32,14 @@ public class GuildsPage extends BasePage {
     //
 
     //Methods
-    public void softTech() {
+    public softwareTechnologyCategoryPage softTech() {
         if (softTech.isDisplayed()) {
             System.out.println("- software & technology click: pass");
             softTech.click();
         } else {
             System.out.println("- software & technology click: fail");
         }
+return newSoftwareTechnologyCategoryPage();
     }
 
     public void xamarin() {
@@ -76,6 +78,14 @@ public class GuildsPage extends BasePage {
         }
     }
     //
+private softwareTechnologyCategoryPage newSoftwareTechnologyCategoryPage()
+{
+if(_softwareTechCategoryPage == null)
+	this._softwareTechCategoryPage = new softwareTechnologyCategoryPage(driver);
+return this._softwareTechCategoryPage;
+}
+
+private softwareTechnologyCategoryPage _softwareTechCategoryPage;
 }
 
 
