@@ -23,11 +23,7 @@ public class InsightsPage extends BasePage {
         System.out.println("------------------------");
     }
 
-    //JS Executor
-    JavascriptExecutor js = (JavascriptExecutor) driver;
-    //
-
-    // Page Factory
+    #region Page Factory
     @FindBy(xpath = "/html/body/div[2]/div/div/div/div[2]/div[1]/div[2]/div/div/div/a[2]")
     WebElement ReadMore;
     @FindBy(xpath = "/html/body/div[2]/div/div/div/div[1]/div/div/div[2]/div/button/span[1]")
@@ -45,7 +41,7 @@ public class InsightsPage extends BasePage {
     @FindBy(xpath = "//*[@id=\"post-25165\"]/div[2]/div/div/h5/a")
     WebElement matiBaldi;
     //
-
+#endregion
     // Methods
     public void clickReadMore() {
         if (ReadMore.isDisplayed()) {
@@ -66,18 +62,6 @@ public class InsightsPage extends BasePage {
         } else {
             System.out.println("- industries list btn display: fail");
         }
-        /*Possible industries:
-        Agriculture
-        All Industries
-        Financial Services
-        Healthcare & Pharma
-        Insurance
-        Media & Entertainment
-        Oil & Gas
-        Retail
-        Software & Technology
-        Travel & Hospitality
-         */
     }
 
     public void clickGuilds(String chooseGuild) {
@@ -90,15 +74,12 @@ public class InsightsPage extends BasePage {
         } else {
             System.out.println("- guilds list display: fail");
         }
-        /*Possible guilds:
-        Design & UX
-        Play
-         */
     }
 
     public void clickShowMore() {
         if (ShowMore.isDisplayed()) {
             System.out.println("- show more btn display: pass");
+	JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("arguments[0].scrollIntoView();", ShowMore);
             ShowMore.click();
         } else {
@@ -107,7 +88,8 @@ public class InsightsPage extends BasePage {
     }
 
     public void clickRightArrow() {
-        js.executeScript("arguments[0].scrollIntoView();", rightArrowScroll);
+JavascriptExecutor js = (JavascriptExecutor) driver;        
+js.executeScript("arguments[0].scrollIntoView();", rightArrowScroll);
         if (rightArrowScroll.isDisplayed()) {
             System.out.println("- clicking right arrow 7 times: pass");
             for (int i = 0; i < 8; i++) {
@@ -133,7 +115,8 @@ public class InsightsPage extends BasePage {
         if (overlay.isDisplayed()) {
             System.out.println();
             System.out.println("FOUND OVERLAY");
-            js.executeScript("arguments[0].parentNode.removeChild(arguments[0])", overlay);
+JavascriptExecutor js = (JavascriptExecutor) driver;           
+ js.executeScript("arguments[0].parentNode.removeChild(arguments[0])", overlay);
             System.out.println("REMOVING OVERLAY...");
             System.out.println("OVERLAY REMOVED");
             System.out.println();
